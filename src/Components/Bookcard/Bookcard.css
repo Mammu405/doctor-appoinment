@@ -1,0 +1,11 @@
+.card{
+    background-color: aquamarine;
+    margin-top: 30px;
+    margin-left: 30px;
+  box-shadow: 1px 2px 3px 4px rgba(77, 244, 116, 0.1); /* Add a shadow to the card */
+  transition: transform 0.2s;
+}
+.card:hover{
+    transform: scale(1.05); /* Scale up the card on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
